@@ -1,0 +1,12 @@
+models:
+  - name: stg_stripe__payments
+    description: Payment informations for orders placed at jaffle shop
+    columns:
+      - name: id
+      - name: orderid
+      - name: paymentmethod
+        description: "{{ doc('payment_method') }}"
+      - name: status
+      - name: amount
+        description: Amount paid in USD
+      - name: created_at
