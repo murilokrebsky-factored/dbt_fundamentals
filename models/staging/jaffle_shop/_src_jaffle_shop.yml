@@ -13,3 +13,7 @@ sources:
             - unique
             - not_null
       - name: orders
+      - name: orders_amazon
+        description: Orders from orders_amazon
+      - name: orders_shopify
+        description: Orders from shopify
